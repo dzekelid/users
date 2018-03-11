@@ -16,21 +16,11 @@ tags:
 - Stack Network
 - People
 - Google APIs
-created: "2018-02-26"
-modified: "2018-02-26"
+created: "2018-03-10"
+modified: "2018-03-10"
 url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/google-people/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Google People API
-  description: The People API lets you list authenticated users Contacts and retrieve
-    profile information for authenticated users and their contacts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-people.png
-  humanURL: ""
-  baseURL: ://people.googleapis.com//
-  tags: Users
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/google-people/v1-resourcename-connections-get.md
+apis: []
 x-common:
 - type: x-code
   url: https://developers.google.com/people/v1/libraries
