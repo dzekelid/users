@@ -12,20 +12,11 @@ tags:
 - Management
 - Google APIs
 - Authentication
-created: "2018-02-26"
-modified: "2018-02-26"
+created: "2018-03-10"
+modified: "2018-03-10"
 url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/google-cloud-user-accounts/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Google Cloud User Accounts API
-  description: Service for managing the global Google Cloud user accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-icon.png
-  humanURL: ""
-  baseURL: ://www.googleapis.com//clouduseraccounts/vm_alpha/projects
-  tags: Users
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/google-cloud-user-accounts/project-zones-zone-linuxaccountviews-post.md
+apis: []
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/access/user-accounts/api/libraries
