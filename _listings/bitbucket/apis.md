@@ -25,7 +25,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/bitbucket/users-username-following-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/bitbucket/users-username-hooks-get.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
