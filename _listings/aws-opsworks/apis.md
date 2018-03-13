@@ -26,7 +26,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/aws-opsworks/action-describemyuserprofile-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/aws-opsworks/action-describeuserprofiles-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
