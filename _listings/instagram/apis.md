@@ -40,7 +40,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/instagram/users-user-id-follows-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/instagram/users-user-id-followed-by-get.md
 x-common:
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
