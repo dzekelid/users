@@ -35,7 +35,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/sendgrid/subusers-subuser-name-monitor-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/sendgrid/subusers-subuser-name-monitor-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
