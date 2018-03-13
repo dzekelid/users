@@ -21,7 +21,17 @@ created: "2018-03-13"
 modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/disqus/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Disqus
+  description: Disqus (/d?-sk?s/) is an online discussion and commenting service for
+    websites and online communities that uses a networked platform
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+  humanURL: ""
+  baseURL: https://disqus.com/api/3.0/
+  tags: Users
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/disqus/users-listactiveforums-json-get.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
