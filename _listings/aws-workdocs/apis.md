@@ -37,7 +37,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/aws-workdocs/action-deleteuser-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/aws-workdocs/action-describeusers-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
