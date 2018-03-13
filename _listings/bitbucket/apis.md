@@ -25,7 +25,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/bitbucket/users-username-pipelines-config-variables-variable-uuid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/bitbucket/users-username-pipelines-config-variables-variable-uuid-get.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
