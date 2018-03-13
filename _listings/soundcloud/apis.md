@@ -33,7 +33,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/soundcloud/users-user-id-followers-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/soundcloud/users-user-id-followers-contact-id-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
