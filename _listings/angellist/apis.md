@@ -19,9 +19,9 @@ tags:
 - Directory
 - Business
 - Angellist API Stack
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/angellist/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/angellist/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AngelList
@@ -33,7 +33,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/angellist/users-user-id-following-ids-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/angellist/tags-tag-id-users-get.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
