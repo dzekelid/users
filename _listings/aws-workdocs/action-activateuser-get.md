@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ActivateUser&k=1:
+  /?Action=ActivateUser:
     get:
       summary: ' Activate User '
       description: Activates the specified user
