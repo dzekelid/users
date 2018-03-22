@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteUser&k=1:
+  /?Action=DeleteUser:
     get:
       summary: ' Delete User '
       description: Deletes the specified IAM user
