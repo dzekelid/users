@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeUsers&k=1:
+  /?Action=DescribeUsers:
     get:
       summary: ' Describe Users '
       description: Describes the specified users
