@@ -33,7 +33,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/angellist/users-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/angellist/users-user-id-get.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
