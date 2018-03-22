@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateUserProfile&k=1:
+  /?Action=UpdateUserProfile:
     get:
       summary: ' Update User Profile '
       description: Updates a specified user profile
