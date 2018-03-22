@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateUser&k=1:
+  /?Action=UpdateUser:
     get:
       summary: ' Update User '
       description: Updates the name and/or the path of the specified IAM user
