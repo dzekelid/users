@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetUser&k=1:
+  /?Action=GetUser:
     get:
       summary: ' Get User '
       description: |-
