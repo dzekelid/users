@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetVisibleToAllUsers&k=1:
+  /?Action=SetVisibleToAllUsers:
     get:
       summary: ' Set Visible To All Users '
       description: Sets whether all AWS Identity and Access Management (IAM) users
