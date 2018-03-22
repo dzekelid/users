@@ -24,7 +24,16 @@ created: "2018-03-22"
 modified: "2018-03-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Akamai API
+  description: Akamai Technologies, Inc
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
+  humanURL: ""
+  baseURL: https:///
+  tags: Users
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/akamai/user-admin-v1-accounts-accountid-users-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
