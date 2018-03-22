@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeMyUserProfile&k=1:
+  /?Action=DescribeMyUserProfile:
     get:
       summary: ' Describe My User Profile '
       description: Describes a user's SSH information
