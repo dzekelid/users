@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListUsers&k=1:
+  /?Action=ListUsers:
     get:
       summary: ' List Users '
       description: Lists the IAM users that have the specified path prefix
