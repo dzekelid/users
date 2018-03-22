@@ -40,7 +40,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-repos-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-starred-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
