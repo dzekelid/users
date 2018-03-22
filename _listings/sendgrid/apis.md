@@ -18,9 +18,9 @@ tags:
 - Email
 - Email
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/sendgrid/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: SendGrid
@@ -35,7 +35,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/sendgrid/subusers-subuser-name-stats-monthly-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
