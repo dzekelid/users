@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeactivateUser&k=1:
+  /?Action=DeactivateUser:
     get:
       summary: ' Deactivate User '
       description: Deactivates the specified user, which revokes the user's access
