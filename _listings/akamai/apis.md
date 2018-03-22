@@ -33,7 +33,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/akamai/user-admin-v1-users-contactid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/akamai/user-admin-v1-users-contactid-delete.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
