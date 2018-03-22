@@ -25,9 +25,9 @@ tags:
 - Chat
 - Change Log Example
 - Change Log
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/slack/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Slack
@@ -39,7 +39,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/slack/users-setactive-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-profile-set-post.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
