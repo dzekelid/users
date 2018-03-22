@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateMyUserProfile&k=1:
+  /?Action=UpdateMyUserProfile:
     get:
       summary: ' Update My User Profile '
       description: Updates a user's SSH public key
