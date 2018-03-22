@@ -11,9 +11,9 @@ tags:
 - Tasks
 - Stack Network
 - Google APIs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/google-tasks/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Tasks API
@@ -25,7 +25,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/users/master/_listings/google-tasks/users-me-lists-tasklist-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-get.md
 x-common:
 - type: x-code
   url: https://developers.google.com/google-apps/tasks/setup
