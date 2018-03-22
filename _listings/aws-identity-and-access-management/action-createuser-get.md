@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateUser&k=1:
+  /?Action=CreateUser:
     get:
       summary: ' Create User '
       description: Creates a new IAM user for your AWS account
