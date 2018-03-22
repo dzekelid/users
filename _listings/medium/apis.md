@@ -25,7 +25,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-authorid-posts-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-userid-publications-get.md
 x-common:
 - type: x-github
   url: https://github.com/Medium
