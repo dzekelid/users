@@ -11,8 +11,8 @@ tags:
 - Stack Network
 - Google APIs
 - Advertising
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-doubleclick/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-doubleclick/userprofiles-profileid-userroles-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-doubleclick/userprofiles-profileid-userrolepermissiongroups-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
