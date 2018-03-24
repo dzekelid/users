@@ -32,7 +32,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/devices-id-registeredusers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/users-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
