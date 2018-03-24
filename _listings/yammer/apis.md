@@ -13,8 +13,8 @@ tags:
 - Media
 - Chat
 - Bots
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-autocomplete-ranked-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-in-group-group-id-json-get.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
