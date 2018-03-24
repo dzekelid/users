@@ -11,8 +11,8 @@ tags:
 - Media
 - Communications
 - Blogging
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-userid-publications-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-authorid-posts-post.md
 x-common:
 - type: x-github
   url: https://github.com/Medium
