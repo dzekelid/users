@@ -18,8 +18,8 @@ tags:
 - Files
 - Email
 - Contact
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -32,7 +32,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/users-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/devices-id-registeredusers-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
