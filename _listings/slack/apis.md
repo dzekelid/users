@@ -39,7 +39,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-profile-get-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-list-get.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
