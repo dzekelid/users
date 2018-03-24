@@ -32,7 +32,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-user-create-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-user-update-traveler-post.md
 x-common:
 - type: x-base
   url: http://api.ean.com
