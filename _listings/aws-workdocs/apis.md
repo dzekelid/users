@@ -22,8 +22,8 @@ tags:
 - Stack Network
 - Documents
 - Amazon Web Services
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-workdocs/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -37,7 +37,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-workdocs/action-updateuser-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-workdocs/action-activateuser-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
