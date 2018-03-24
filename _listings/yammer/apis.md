@@ -27,7 +27,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-json-put.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
