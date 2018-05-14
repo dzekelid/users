@@ -46,19 +46,24 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Reputation History Full
-  description: "Returns a user's full reputation history, including private events.\n
-    \nThis method requires an access_token, with a scope containing \"private_info\".\n
-    \nThis method returns a list of reputation_history."
+- name: Stack Exchange Get User Tags Top Answers
+  description: "Returns the top 30 answers a user has posted in response to questions
+    with the given tags.\n \n{id} can contain a single id, to find it programatically
+    look for user_id on user or shallow_user objects. {tags} is limited to 5 tags,
+    passing more will result in an error.\n \nThe sorts accepted by this method operate
+    on the follow fields of the answer object:\n - activity - last_activity_date\n
+    - creation - creation_date\n - votes - score\n  activity is the default sort.\n
+    \n It is possible to create moderately complex queries using sort, min, max, fromdate,
+    and todate.\n \nThis method returns a list of answers."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-reputation-history-full-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-tags-tags-top-answers-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-reputation-history-full-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-tags-tags-top-answers-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
