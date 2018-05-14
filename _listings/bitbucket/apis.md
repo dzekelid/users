@@ -26,20 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-repositories-parameters.md
-- name: Bitbucket Get Users Username Repositories
-  description: |-
-    All repositories owned by a user/team. This includes private
-    repositories, but filtered down to the ones that the calling user has
-    access to.
+- name: Bitbucket Parameters Users Username Repositories
+  description: Parameters users username repositories
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-repositories-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-repositories-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-repositories-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-repositories-parameters-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
