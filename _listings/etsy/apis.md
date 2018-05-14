@@ -54,16 +54,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-recommended-listings-get.md
-- name: Etsy Post Users User Recommended Listings Views Listing S
-  description: Register viewings of recommended listings. Affects future recommended
-    listings.
+- name: Etsy Get Users User Treasuries
+  description: Get a user's Treasuries
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-recommended-listings-views-listing-ids-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-treasuries-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
