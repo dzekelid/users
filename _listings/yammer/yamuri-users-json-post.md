@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API Create A User By JSON
+  description: Create an existing user. Current user should be a verified admin in
+    a paid Yammer network to perform this action
   version: 1.0.0
 host: example.com
 basePath: /
