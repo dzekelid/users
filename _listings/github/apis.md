@@ -41,17 +41,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-subscriptions-get.md
-- name: Github Get Users Username Gists
-  description: List a users gists.
+- name: Github Get Users Username Keys
+  description: |-
+    List public keys for a user.
+    Lists the verified public keys for a user. This is accessible by anyone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-gists-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-keys-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-gists-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-keys-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
