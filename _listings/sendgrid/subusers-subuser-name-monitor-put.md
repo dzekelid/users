@@ -1,11 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Put Subusers Subuser Name Monitor
+  description: Subuser monitor settings allow you to receive a sample of an outgoing
+    message by a specific customer at a specific frequency of emails.
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
