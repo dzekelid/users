@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Disqus
-  description: Welcome to the Disqus Web API. The API enables developers to communicate
-    with Disqus data from within their own applications.
+  title: Disqus Users ListFollowingChannels
+  description: Users ListFollowingChannels
   termsOfService: https://docs.disqus.com/kb/terms-and-policies/
   version: 1.0.0
 host: disqus.com
@@ -15,10 +14,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /users/listFollowingChannels.json
-  : get:
+  /users/listFollowingChannels.json:
+    get:
       summary: Users ListFollowingChannels
       description: "\n     Users ListFollowingChannels "
       operationId: users-listfollowingchannels
