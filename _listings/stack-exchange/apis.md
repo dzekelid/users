@@ -46,19 +46,22 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Notifications Unread
-  description: "Returns a user's unread notifications.\n \nThis method requires an
-    access_token, with a scope containing \"read_inbox\".\n \nThis method returns
-    a list of notifications."
+- name: Stack Exchange Get User Preveleges
+  description: "Returns the privileges a user has.\n \nApplications are encouraged
+    to calculate privileges themselves, without repeated queries to this method. A
+    simple check against the results returned by /privileges and user.user_type would
+    be sufficient.\n \n{id} can contain only a single, to find it programatically
+    look for user_id on user or shallow_user objects.\n \nThis method returns a list
+    of privileges."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-notifications-unread-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-privileges-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-notifications-unread-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-privileges-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
