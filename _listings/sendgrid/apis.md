@@ -36,20 +36,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-subuser-name-stats-monthly-get.md
-- name: SendGrid Get Subusers Reputations
+- name: SendGrid Get Subusers Stats
   description: |-
-    Subuser sender reputations give a good idea how well a sender is doing with regards to how recipients and recipient servers react to the mail that is being received. When a bounce, spam report, or other negative action happens on a sent email, it will effect your sender rating.
+    **This endpoint allows you to retrieve the email statistics for the given subusers.**
 
-    This endpoint allows you to request the reputations for your subusers.
+    You may retrieve statistics for up to 10 different subusers by including an additional _subusers_ parameter for each additional subuser.
+
+    While you can always view the statistics for all email activity on your account, subuser statistics enable you to view specific segments of your stats. Emails sent, bounces, and spam reports are always tracked for subusers. Unsubscribes, clicks, and opens are tracked if you have enabled the required settings.
+
+    For more information, see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/subuser.html).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-reputations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-stats-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-reputations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-stats-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
