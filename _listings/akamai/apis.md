@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Create a New User
-  description: Create a New User
+- name: Akamai API List Users
+  description: List Users
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/akamai/user-admin-v1-users-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/akamai/user-admin-v1-accounts-accountid-users-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
