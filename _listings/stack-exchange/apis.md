@@ -46,10 +46,15 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Questions Unnacepted
-  description: "Gets the questions asked by the users in {ids} which have at least
-    one answer, but no accepted answer.\n \nQuestions returned by this method have
-    answers, but the owner has not opted to accept any of them.\n \n{ids} can contain
+- name: Stack Exchange Get User Questions Unanswered
+  description: "Gets the questions asked by the users in {ids} which the site consideres
+    unanswered, while still having at least one answer posted.\n \nThese rules are
+    subject to change, but currently any question without at least one upvoted or
+    accepted answer is considered unanswered.\n \nTo get the set of questions that
+    a user probably considers unanswered, the returned questions should be unioned
+    with those returned by /users/{id}/questions/no-answers. These methods are distinct
+    so that truly unanswered (that is, zero posted answers) questions can be easily
+    separated from mearly poorly or inadequately answered ones.\n \n{ids} can contain
     up to 100 semicolon delimited ids, to find ids programatically look for user_id
     on user or shallow_user objects.\n \nThe sorts accepted by this method operate
     on the follow fields of the question object:\n - activity - last_activity_date\n
@@ -62,9 +67,9 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-unaccepted-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-unanswered-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-unaccepted-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-unanswered-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
