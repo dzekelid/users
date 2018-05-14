@@ -23,17 +23,17 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Twitter User Contributors
-  description: collection of users that can contribute to specified account
+- name: Twitter Report User Spam
+  description: Returna users report spam
   image: https://avatars1.githubusercontent.com/u/50278?v=4
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/twitter/users-contributors-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/twitter/users-report-spam-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/twitter/users-contributors-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/twitter/users-report-spam-post-postman.md
 x-common:
 - type: x-net-library
   url: https://tweetinvi.codeplex.com/
