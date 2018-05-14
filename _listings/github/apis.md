@@ -41,17 +41,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-subscriptions-get.md
-- name: Github Get Search Users
-  description: Search users.
+- name: Github Get Users
+  description: |-
+    Get all users.
+    This provides a dump of every user, in the order that they signed up for GitHub.
+    Note: Pagination is powered exclusively by the since parameter. Use the Link
+    header to get the URL for the next page of users.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/search-users-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/search-users-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
