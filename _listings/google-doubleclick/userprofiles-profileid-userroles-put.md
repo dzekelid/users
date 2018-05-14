@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Update User Role
   version: 1.0.0
+  description: Updates an existing user role.
 schemes:
 - http
 produces:
