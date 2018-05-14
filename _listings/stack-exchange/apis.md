@@ -46,23 +46,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Inbox Unread
-  description: "Returns the unread items in a user's inbox.\n \nThis method requires
-    an access_token, with a scope containing \"read_inbox\".\n \nThis method is effectively
-    an alias for /inbox/unread. It is provided for consumers who make strong assumptions
-    about operating within the context of a single site rather than the Stack Exchange
-    network as a whole.\n \n{id} can contain a single id, to find it programatically
-    look for user_id on user or shallow_user objects.\n \nThis method returns a list
-    of inbox items."
+- name: Stack Exchange Get User Notifications
+  description: "Returns a user's notifications.\n \nThis method requires an access_token,
+    with a scope containing \"read_inbox\".\n \nThis method returns a list of notifications."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-inbox-unread-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-notifications-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-inbox-unread-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-notifications-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
