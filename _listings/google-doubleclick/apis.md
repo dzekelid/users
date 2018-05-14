@@ -26,15 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-doubleclick/userprofiles-profileid-userroles-id-get.md
-- name: Google Doubleclick API Insert User Role
-  description: Inserts a new user role.
+- name: Google Doubleclick API Update User Role
+  description: Updates an existing user role.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-doubleclick/userprofiles-profileid-userroles-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-doubleclick/userprofiles-profileid-userroles-put.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
