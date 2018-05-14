@@ -29,17 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-user-put.md
-- name: Data.gov API Delete Users  Followers
-  description: Unfollow an object given its ID
+- name: Data.gov API Get Users  Followers
+  description: List all followers for a given object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-id-followers-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-id-followers-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-id-followers-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-id-followers-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
