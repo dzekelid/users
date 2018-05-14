@@ -63,15 +63,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-addresses-get.md
-- name: Etsy Post Users User Addresses
-  description: Creates a new UserAddress.
+- name: Etsy Post Users User Avatar
+  description: Upload a new user avatar image
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-addresses-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-avatar-post.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
