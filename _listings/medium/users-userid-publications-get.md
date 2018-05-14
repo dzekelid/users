@@ -1,11 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Medium.com
-  description: Medium&rsquo;s unofficial API documentation using OpenAPI specification.#
-    Official APIOfficial API document can also be viewed for most up to date API spec
-    at [https://github.com/Medium/medium-api-docs](https://github.com/Medium/medium-api-docs).Developer
-    Blog - [Welcome to the Medium API](https://medium.com/blog/welcome-to-the-medium-api-3418f956552)
+  title: Medium User's publications
+  description: Returns a full list of publications that the user is related to in
+    some way. This includes all publications the user is subscribed to, writes to,
+    or edits.
   termsOfService: https://medium.com/@feerst/2b405a832a2f
   contact:
     name: Hossain Khan
