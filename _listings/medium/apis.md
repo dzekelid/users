@@ -26,15 +26,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-userid-publications-get.md
-- name: Medium Create User Post
-  description: "Creates a post on the authenticated user\u2019s profile."
+- name: Medium User's publications
+  description: Returns a full list of publications that the user is related to in
+    some way. This includes all publications the user is subscribed to, writes to,
+    or edits.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png
   humanURL: https://medium.com/
   baseURL: https://api.medium.com//v1
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-authorid-posts-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-userid-publications-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-userid-publications-get-postman.md
 x-common:
 - type: x-github
   url: https://github.com/Medium
