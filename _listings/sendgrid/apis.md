@@ -36,21 +36,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-subuser-name-stats-monthly-get.md
-- name: SendGrid Patch Subusers Subuser Name
-  description: |-
-    This endpoint allows you to enable or disable a subuser.
-
-    For more information about Subusers:
-
-    * [User Guide > Subusers](https://sendgrid.com/docs/User_Guide/Settings/Subusers/index.html)
-    * [Classroom > How do I add more subusers to my account?](https://sendgrid.com/docs/Classroom/Basics/Account/how_do_i_add_more_subusers_to_my_account.html)
+- name: SendGrid Put Subusers Subuser Name Ips
+  description: "Each subuser should be assigned to an IP address, from which all of
+    this subuser's mail will be sent. Often, this is the same IP as the parent account,
+    but each subuser can have their own, or multiple, IP addresses as well. \n\nMore
+    information:\n\n* [How to request more IPs](https://sendgrid.com/docs/Classroom/Basics/Account/adding_an_additional_dedicated_ip_to_your_account.html)\n*
+    [IPs can be whitelabeled](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/ips.html)"
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-subuser-name-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-subuser-name-ips-put.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
