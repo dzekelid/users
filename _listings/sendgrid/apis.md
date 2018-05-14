@@ -36,23 +36,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-subuser-name-stats-monthly-get.md
-- name: SendGrid Get Subusers Stats Sums
+- name: SendGrid Delete Subusers Subuser Name
   description: |-
-    **This endpoint allows you to retrieve the total sums of each email statistic metric for all subusers over the given date range.**
+    This endpoint allows you to delete a subuser. This is a permanent action, once deleted a subuser cannot be retrieved.
 
+    For more information about Subusers:
 
-    While you can always view the statistics for all email activity on your account, subuser statistics enable you to view specific segments of your stats. Emails sent, bounces, and spam reports are always tracked for subusers. Unsubscribes, clicks, and opens are tracked if you have enabled the required settings.
-
-    For more information, see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/subuser.html).
+    * [User Guide > Subusers](https://sendgrid.com/docs/User_Guide/Settings/Subusers/index.html)
+    * [Classroom > How do I add more subusers to my account?](https://sendgrid.com/docs/Classroom/Basics/Account/how_do_i_add_more_subusers_to_my_account.html)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-stats-sums-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-stats-sums-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-subuser-name-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
