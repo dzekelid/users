@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Tasks
-  description: Lets you manage your tasks and task lists.
+  title: Google Tasks API Patch Users Task List
+  description: Updates the authenticated user's specified task list. This method supports
+    patch semantics.
   contact:
     name: Google
     url: https://google.com
