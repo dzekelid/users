@@ -1,15 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Particle
-  description: 'The Particle Cloud API is a REST API. REST means a lot of things,
-    but first and foremost it means that we use the URL in the way that it''s intended:
-    as a &quot;Uniform Resource Locator&quot;.In this case, the unique &quot;resource&quot;
-    in question is your device (Core, Photon, Electron). Every device has a URL, which
-    can be used to GET variables, POST a function call, or PUT new firmware. The variables
-    and functions that you have written in your firmware are exposed as subresources
-    under the device.All requests to the device come through our API server using
-    TLS security.'
+  title: Particle Delete Orgs Slug Users
+  description: Remove a current team member from your organization.
   version: 1.0.0
 host: api.particle.io
 basePath: v1/
