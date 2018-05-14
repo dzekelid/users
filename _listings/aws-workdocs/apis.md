@@ -38,15 +38,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-workdocs/action-updateuser-get.md
-- name: AWS WorkDocs API Describe Users
-  description: Describes the specified users.
+- name: AWS WorkDocs API Update User
+  description: "Updates the specified attributes of the specified user, and grants
+    or revokes \n      administrative privileges to the Amazon WorkDocs site."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
   baseURL: http:://{host}//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-workdocs/action-describeusers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-workdocs/action-updateuser-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
