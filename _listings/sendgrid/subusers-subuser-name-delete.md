@@ -1,11 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Delete Subusers Subuser Name
+  description: |-
+    This endpoint allows you to delete a subuser. This is a permanent action, once deleted a subuser cannot be retrieved.
+
+    For more information about Subusers:
+
+    * [User Guide > Subusers](https://sendgrid.com/docs/User_Guide/Settings/Subusers/index.html)
+    * [Classroom > How do I add more subusers to my account?](https://sendgrid.com/docs/Classroom/Basics/Account/how_do_i_add_more_subusers_to_my_account.html)
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
