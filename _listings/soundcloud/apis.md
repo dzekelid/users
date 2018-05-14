@@ -34,15 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/soundcloud/groups-group-id-users-json-get.md
-- name: SoundCloud Get User Playlists
-  description: Returns a collection of playlists created by user with user id
+- name: SoundCloud Get Group Users
+  description: Returns a combined collection of moderators, members and contributors
+    of the group with group id
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/soundcloud/users-user-id-playlists-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/soundcloud/groups-group-id-users-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
