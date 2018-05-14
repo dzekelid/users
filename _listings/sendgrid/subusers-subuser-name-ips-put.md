@@ -1,11 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Put Subusers Subuser Name Ips
+  description: "Each subuser should be assigned to an IP address, from which all of
+    this subuser's mail will be sent. Often, this is the same IP as the parent account,
+    but each subuser can have their own, or multiple, IP addresses as well. \n\nMore
+    information:\n\n* [How to request more IPs](https://sendgrid.com/docs/Classroom/Basics/Account/adding_an_additional_dedicated_ip_to_your_account.html)\n*
+    [IPs can be whitelabeled](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/ips.html)"
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
