@@ -26,7 +26,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-userid-publications-get.md
+- name: Medium Create User Post
+  description: "Creates a post on the authenticated user\u2019s profile."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png
+  humanURL: https://medium.com/
+  baseURL: https://api.medium.com//v1
+  tags: Users
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/medium/users-authorid-posts-post.md
 x-common:
+- type: x-github
+  url: https://github.com/Medium
+- type: x-transparency-report
+  url: https://medium.com/transparency-report
+- type: x-twitter
+  url: https://twitter.com/Medium
+- type: x-website
+  url: https://medium.com/
 - type: x-github
   url: https://github.com/Medium
 - type: x-transparency-report
