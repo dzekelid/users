@@ -1,10 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ApiManagementClient
-  description: Use these REST APIs for performing operations on User entity in Azure
-    API Management deployment. The User entity in API Management represents the developers
-    that call the APIs of the products to which they are subscribed.
+  title: Azure API Management API Users GenerateSsoUrl
+  description: Retrieves a redirection URL containing an authentication token for
+    signing a given user into the developer portal.
   version: 1.0.0
 host: management.azure.com
 basePath: /
