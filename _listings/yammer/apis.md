@@ -28,17 +28,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-autocomplete-ranked-get.md
-- name: Yammer API Get Users In A Group
-  description: Users in a group. Supports the page parameter.
+- name: Yammer API Retrieve Users By  Messages
+  description: Results will be returned sorted by number of messages, instead of the
+    default behavior of sorting alphabetically.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
   baseURL: http:://example.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-in-group-group-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-in-group-group-id-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-json-get-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
