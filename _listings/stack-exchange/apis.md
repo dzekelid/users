@@ -46,25 +46,26 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Mentioned
-  description: "Gets all the comments that the users in {ids} were mentioned in.\n
-    \nNote, to count as a mention the comment must be considered to be \"in reply
-    to\" a user. Most importantly, this means that a comment can only be in reply
-    to a single user.\n \n{ids} can contain up to 100 semicolon delimited ids, to
-    find ids programatically look for user_id on user or shallow_user objects.\n \nThe
-    sorts accepted by this method operate on the follow fields of the comment object:\n
-    - creation - creation_date\n - votes - score\n  It is possible to create moderately
-    complex queries using sort, min, max, fromdate, and todate.\n \nThis method returns
-    a list of comments."
+- name: Stack Exchange Get User Merges
+  description: "Returns a record of merges that have occurred involving the passed
+    account ids.\n \nThis method allows you to take now invalid account ids and find
+    what account they've become, or take currently valid account ids and find which
+    ids were equivalent in the past.\n \nThis is most useful when confirming that
+    an account_id is in fact \"new\" to an application.\n \nAccount merges can happen
+    for a wide range of reasons, applications should not make assumptions that merges
+    have particular causes.\n \nNote that accounts are managed at a network level,
+    users on a site may be merged due to an account level merge but there is no guarantee
+    that a merge has an effect on any particular site.\n \nThis method returns a list
+    of account_merge."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-mentioned-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-merges-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-mentioned-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-merges-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
