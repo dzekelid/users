@@ -26,25 +26,23 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get User
-  description: "Gets the users identified in ids in {ids}.\n \nTypically this method
-    will be called to fetch user profiles when you have obtained user ids from some
-    other source, such as /questions.\n \n{ids} can contain up to 100 semicolon delimited
-    ids, to find ids programatically look for user_id on user or shallow_user objects.\n
-    \nThe sorts accepted by this method operate on the follow fields of the user object:\n
-    - reputation - reputation\n - creation - creation_date\n - name - display_name\n
-    - modified - last_modified_date\n  reputation is the default sort.\n \n It is
-    possible to create moderately complex queries using sort, min, max, fromdate,
-    and todate.\n \nThis method returns a list of users."
+- name: Stack Exchange Get User Answers
+  description: "Returns the answers the users in {ids} have posted.\n \n{ids} can
+    contain up to 100 semicolon delimited ids, to find ids programatically look for
+    user_id on user or shallow_user objects.\n \nThe sorts accepted by this method
+    operate on the follow fields of the answer object:\n - activity - last_activity_date\n
+    - creation - creation_date\n - votes - score\n  activity is the default sort.\n
+    \n It is possible to create moderately complex queries using sort, min, max, fromdate,
+    and todate.\n \nThis method returns a list of answers."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-answers-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-answers-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
