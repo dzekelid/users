@@ -30,7 +30,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/particle/orgs-slug-users-username-delete.md
+- name: Particle Delete Orgs Slug Users
+  description: Remove a current team member from your organization.
+  image: ""
+  humanURL: https://www.particle.io/
+  baseURL: https://api.particle.io/v1/
+  tags: Users
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/particle/orgs-slug-users-username-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/particle/orgs-slug-users-username-delete-postman.md
 x-common:
+- type: x-base-url
+  url: api.particle.io
+- type: x-developer
+  url: https://www.particle.io/products/software/developer-tools
+- type: x-documentation
+  url: https://docs.particle.io/guide/getting-started/build/raspberry-pi/
+- type: x-faq
+  url: https://docs.particle.io/support/support-and-fulfillment/faq/
+- type: x-getting-started
+  url: https://login.particle.io/login?app=web-ide&redirect=https://build.particle.io/build
+- type: x-support
+  url: https://docs.particle.io/support/support-and-fulfillment/menu-base/
+- type: x-website
+  url: https://www.particle.io/
 - type: x-base-url
   url: api.particle.io
 - type: x-developer
