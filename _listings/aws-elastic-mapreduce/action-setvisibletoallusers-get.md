@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API Set Visible To All Users
   version: 1.0.0
+  description: Sets whether all AWS Identity and Access Management (IAM) users under
+    your account can access the specified job flows.
 schemes:
 - http
 produces:
