@@ -33,18 +33,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/users-get.md
-- name: Microsoft Graph API List Registered Users
-  description: List registeredUsers Retrieve a list of users that are registered users
-    of the device.
+- name: Microsoft Graph API List Users
+  description: List users Retrieve a list of user objects.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/devices-id-registeredusers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/users-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/devices-id-registeredusers-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/microsoft-graph/users-get-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
