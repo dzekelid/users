@@ -46,22 +46,23 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Timeline
-  description: "Returns a subset of the actions the users in {ids} have taken on the
-    site.\n \nThis method returns users' posts, edits, and earned badges in the order
-    they were accomplished. It is possible to filter to just a window of activity
-    using the fromdate and todate parameters.\n \n{ids} can contain up to 100 semicolon
-    delimited ids, to find ids programatically look for user_id on user or shallow_user
-    objects.\n \nThis method returns a list of user timeline objects."
+- name: Stack Exchange Get User Inbox
+  description: "Returns a user's inbox.\n \nThis method requires an access_token,
+    with a scope containing \"read_inbox\".\n \nThis method is effectively an alias
+    for /inbox. It is provided for consumers who make strong assumptions about operating
+    within the context of a single site rather than the Stack Exchange network as
+    a whole.\n \n{id} can contain a single id, to find it programatically look for
+    user_id on user or shallow_user objects.\n \nThis method returns a list of inbox
+    items."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-timeline-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-inbox-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-timeline-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-id-inbox-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
