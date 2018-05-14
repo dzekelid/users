@@ -41,17 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-subscriptions-get.md
-- name: Github Get Users Username Starred
-  description: List repositories being starred by a user.
+- name: Github Get Users Username Subscriptions
+  description: List repositories being watched by a user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-starred-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-subscriptions-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-starred-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-subscriptions-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
