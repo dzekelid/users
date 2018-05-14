@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-subuser-name-stats-monthly-get.md
-- name: SendGrid Delete Subusers Subuser Name
+- name: SendGrid Patch Subusers Subuser Name
   description: |-
-    This endpoint allows you to delete a subuser. This is a permanent action, once deleted a subuser cannot be retrieved.
+    This endpoint allows you to enable or disable a subuser.
 
     For more information about Subusers:
 
@@ -50,7 +50,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-subuser-name-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/sendgrid/subusers-subuser-name-patch.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
