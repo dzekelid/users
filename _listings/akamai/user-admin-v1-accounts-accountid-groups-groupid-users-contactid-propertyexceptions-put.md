@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Modify a User&#8217;s Set of Property Exceptions
+  description: Modify a User&#8217;s Set of Property Exceptions
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,15 +19,15 @@ paths:
       description: Modify a User&#8217;s Set of Property Exceptions
       operationId: useradminv1accountsaccountidgroupsgroupiduserscontactidpropertyexceptions
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for an account
         type: string
-      - in: String
+      - in: query
         name: contactId
         description: Unique identifier for a user
         type: string
-      - in: Integer
+      - in: query
         name: groupId
         description: Unique numeric identifier for a group
         type: string
