@@ -46,25 +46,25 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Favorites
-  description: "Get the questions that users in {ids} have favorited.\n \nThis method
-    is effectively a view onto a user's favorites tab.\n \n{ids} can contain up to
-    100 semicolon delimited ids, to find ids programatically look for user_id on user
-    or shallow_user objects.\n \nThe sorts accepted by this method operate on the
-    follow fields of the question object:\n - activity - last_activity_date\n - creation
-    - creation_date\n - votes - score\n - added - when the user favorited the question\n
-    \ activity is the default sort.\n \n It is possible to create moderately complex
-    queries using sort, min, max, fromdate, and todate.\n \nThis method returns a
-    list of questions."
+- name: Stack Exchange Get User Mentioned
+  description: "Gets all the comments that the users in {ids} were mentioned in.\n
+    \nNote, to count as a mention the comment must be considered to be \"in reply
+    to\" a user. Most importantly, this means that a comment can only be in reply
+    to a single user.\n \n{ids} can contain up to 100 semicolon delimited ids, to
+    find ids programatically look for user_id on user or shallow_user objects.\n \nThe
+    sorts accepted by this method operate on the follow fields of the comment object:\n
+    - creation - creation_date\n - votes - score\n  It is possible to create moderately
+    complex queries using sort, min, max, fromdate, and todate.\n \nThis method returns
+    a list of comments."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-favorites-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-mentioned-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-favorites-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-mentioned-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
