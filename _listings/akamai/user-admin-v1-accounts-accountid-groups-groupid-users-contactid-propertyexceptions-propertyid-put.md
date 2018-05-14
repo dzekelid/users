@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Modify a Property Exception
+  description: Modify a Property Exception
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,19 +19,19 @@ paths:
       description: Modify a Property Exception
       operationId: useradminv1accountsaccountidgroupsgroupiduserscontactidpropertyexceptionspropertyid
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for an account
         type: string
-      - in: String
+      - in: query
         name: contactId
         description: Unique identifier for a user
         type: string
-      - in: Integer
+      - in: query
         name: groupId
         description: Unique numeric identifier for a group
         type: string
-      - in: String
+      - in: query
         name: propertyId
         description: Within the User Admin API, the assetId is also known as the propertyId
         type: string
