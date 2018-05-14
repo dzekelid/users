@@ -26,17 +26,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-tasklist-put.md
-- name: Google Tasks API Get Users Task List
-  description: Returns the authenticated user's specified task list.
+- name: Google Tasks API Patch Users Task List
+  description: Updates the authenticated user's specified task list. This method supports
+    patch semantics.
   image: ""
   humanURL: https://developers.google.com/google-apps/tasks/
   baseURL: http:://www.googleapis.com//tasks/v1
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-tasklist-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-tasklist-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-tasklist-patch.md
 x-common:
 - type: x-code
   url: https://developers.google.com/google-apps/tasks/setup
