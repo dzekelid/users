@@ -31,17 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-identity-and-access-management/action-updateuser-get.md
-- name: AWS Identity and Access Management API Put User Policy
-  description: |-
-    Adds or updates an inline policy document that is embedded in the specified IAM
-          user.
+- name: AWS Identity and Access Management API Update User
+  description: Updates the name and/or the path of the specified IAM user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-identity-and-access-management/action-putuserpolicy-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-identity-and-access-management/action-updateuser-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
