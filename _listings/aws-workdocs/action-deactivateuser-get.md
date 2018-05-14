@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Deactivate User
   version: 1.0.0
+  description: Deactivates the specified user, which revokes the user's access to
+    Amazon WorkDocs.
 schemes:
 - http
 produces:
