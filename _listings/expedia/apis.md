@@ -34,16 +34,16 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-user-update-traveler-post.md
 - name: Expedia (Internal Only)
-  description: (Internal Only) Retrieve trip (tripId) for given customer (userId)
+  description: (Internal Only) Returns array of trips for passed userId
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x/
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-users-userid-trips-tripid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-users-userid-trips-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-users-userid-trips-tripid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-users-userid-trips-get-postman.md
 x-common:
 - type: x-base
   url: http://api.ean.com
