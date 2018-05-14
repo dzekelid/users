@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Get User
   version: 1.0.0
+  description: |-
+    Retrieves information about the specified IAM user, including the user's creation
+          date, path, unique ID, and ARN.
 schemes:
 - http
 produces:
