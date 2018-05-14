@@ -33,17 +33,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-user-update-traveler-post.md
-- name: Expedia Profile
-  description: Mobile API User Profile
+- name: Expedia Create User
+  description: Mobile API User Create
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x/
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-user-profile-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-user-create-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-user-profile-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/expedia/api-user-create-post-postman.md
 x-common:
 - type: x-base
   url: http://api.ean.com
