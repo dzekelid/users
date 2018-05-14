@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/angellist/users-user-id-following-ids-get.md
-- name: AngelList Get User Followers
-  description: Get User Followers
+- name: AngelList Get User Follower IDs
+  description: Get User Follower IDs
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/angellist/users-user-id-followers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/angellist/users-user-id-followers-ids-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/angellist/users-user-id-followers-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/angellist/users-user-id-followers-ids-get-postman.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
