@@ -38,15 +38,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-workdocs/action-updateuser-get.md
-- name: AWS WorkDocs API Create User
-  description: Creates a user in a Simple AD or Microsoft AD directory.
+- name: AWS WorkDocs API Deactivate User
+  description: Deactivates the specified user, which revokes the user's access to
+    Amazon WorkDocs.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
   baseURL: http:://{host}//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-workdocs/action-createuser-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-workdocs/action-deactivateuser-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
