@@ -1,11 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Get Subusers Stats Sums
+  description: |-
+    **This endpoint allows you to retrieve the total sums of each email statistic metric for all subusers over the given date range.**
+
+
+    While you can always view the statistics for all email activity on your account, subuser statistics enable you to view specific segments of your stats. Emails sent, bounces, and spam reports are always tracked for subusers. Unsubscribes, clicks, and opens are tracked if you have enabled the required settings.
+
+    For more information, see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/subuser.html).
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
