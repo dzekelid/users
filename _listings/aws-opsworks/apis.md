@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-opsworks/action-updateuserprofile-get.md
-- name: AWS OpsWorks API Describe My User Profile
-  description: Describes a user's SSH information.
+- name: AWS OpsWorks API Describe User Profiles
+  description: Describe specified users.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: http:://{host}//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-opsworks/action-describemyuserprofile-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-opsworks/action-describeuserprofiles-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
