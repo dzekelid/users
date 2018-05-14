@@ -29,17 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-user-put.md
-- name: Data.gov API Add Users
-  description: Create a new object
+- name: Data.gov API Get Users Suggest
+  description: Suggest users
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-suggest-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/datagov/users-suggest-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
