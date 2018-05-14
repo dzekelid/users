@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: SoundCloud
-  description: Access, host, upload, and comment on audio.
+  title: SoundCloud Get Users
+  description: Returns a collection of users
   version: 1.0.0
 host: api.soundcloud.com
 basePath: /
