@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-repositories-parameters.md
-- name: Bitbucket Delete Users Username Pipelines Config Variables Variable Uu
-  description: Delete users username pipelines config variables variable uu
+- name: Bitbucket Get Users Username Pipelines Config Variables Variable Uu
+  description: Get users username pipelines config variables variable uu
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-pipelines-config-variables-variable-uuid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-pipelines-config-variables-variable-uuid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-pipelines-config-variables-variable-uuid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/bitbucket/users-username-pipelines-config-variables-variable-uuid-get-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
