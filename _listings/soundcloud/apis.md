@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/soundcloud/groups-group-id-users-json-get.md
-- name: SoundCloud Get User Tracks
-  description: Returns a collection of tracks uploaded by user id
+- name: SoundCloud Get User Followings
+  description: Returns a collection of users the user with user id is following
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/soundcloud/users-user-id-tracks-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/soundcloud/users-user-id-followings-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
