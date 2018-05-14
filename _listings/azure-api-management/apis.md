@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-users-uid-identities-get.md
-- name: Azure API Management API UserSubscriptions ListByUsers
-  description: Lists the collection of subscriptions of the specified user.
+- name: Azure API Management API UserIdentities ListByUsers
+  description: Lists all user identities.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
   humanURL: https://azure.microsoft.com/en-us/services/api-management/
   baseURL: http:://management.azure.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-users-uid-subscriptions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-users-uid-identities-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-users-uid-subscriptions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-users-uid-identities-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
