@@ -46,30 +46,23 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Questions Unanswered
-  description: "Gets the questions asked by the users in {ids} which the site consideres
-    unanswered, while still having at least one answer posted.\n \nThese rules are
-    subject to change, but currently any question without at least one upvoted or
-    accepted answer is considered unanswered.\n \nTo get the set of questions that
-    a user probably considers unanswered, the returned questions should be unioned
-    with those returned by /users/{id}/questions/no-answers. These methods are distinct
-    so that truly unanswered (that is, zero posted answers) questions can be easily
-    separated from mearly poorly or inadequately answered ones.\n \n{ids} can contain
-    up to 100 semicolon delimited ids, to find ids programatically look for user_id
-    on user or shallow_user objects.\n \nThe sorts accepted by this method operate
-    on the follow fields of the question object:\n - activity - last_activity_date\n
-    - creation - creation_date\n - votes - score\n  activity is the default sort.\n
-    \n It is possible to create moderately complex queries using sort, min, max, fromdate,
-    and todate.\n \nThis method returns a list of questions."
+- name: Stack Exchange Get User Reputation
+  description: "Gets a subset of the reputation changes for users in {ids}.\n \nReputation
+    changes are intentionally scrubbed of some data to make it difficult to correlate
+    votes on particular posts with user reputation changes. That being said, this
+    method returns enough data for reasonable display of reputation trends.\n \n{ids}
+    can contain up to 100 semicolon delimited ids, to find ids programatically look
+    for user_id on user or shallow_user objects.\n \nThis method returns a list of
+    reputation objects."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-unanswered-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-reputation-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-unanswered-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-reputation-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
