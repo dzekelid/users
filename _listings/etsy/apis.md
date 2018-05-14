@@ -43,15 +43,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Get Users User Favorites Users
-  description: Finds all favorite users for a user
+- name: Etsy Get Users User Favorites Users Target User
+  description: Finds a favorite user for a user
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-favorites-users-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-favorites-users-target-user-id-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
