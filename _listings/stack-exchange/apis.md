@@ -46,23 +46,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Reputation
-  description: "Gets a subset of the reputation changes for users in {ids}.\n \nReputation
-    changes are intentionally scrubbed of some data to make it difficult to correlate
-    votes on particular posts with user reputation changes. That being said, this
-    method returns enough data for reasonable display of reputation trends.\n \n{ids}
-    can contain up to 100 semicolon delimited ids, to find ids programatically look
-    for user_id on user or shallow_user objects.\n \nThis method returns a list of
-    reputation objects."
+- name: Stack Exchange Get User Reputation History
+  description: "Returns users' public reputation history.\n \nThis method returns
+    a list of reputation_history."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-reputation-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-reputation-history-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-reputation-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-reputation-history-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
