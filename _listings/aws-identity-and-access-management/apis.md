@@ -31,17 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-identity-and-access-management/action-updateuser-get.md
-- name: AWS Identity and Access Management API Get User
-  description: |-
-    Retrieves information about the specified IAM user, including the user's creation
-          date, path, unique ID, and ARN.
+- name: AWS Identity and Access Management API List Users
+  description: Lists the IAM users that have the specified path prefix.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-identity-and-access-management/action-getuser-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/aws-identity-and-access-management/action-listusers-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
