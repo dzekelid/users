@@ -34,16 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/box/users-user-id-memberships-get.md
-- name: Box Create User
-  description: Used to provision a new user in an enterprise. This method only works
-    for enterprise admins.
+- name: Box Get Enterprise Users
+  description: Returns a list of all users for the Enterprise along with their user_id,
+    public_name, and login.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/box/users-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/box/users-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/box/users-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
