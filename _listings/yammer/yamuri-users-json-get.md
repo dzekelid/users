@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API Retrieve Users By  Messages
+  description: Results will be returned sorted by number of messages, instead of the
+    default behavior of sorting alphabetically.
   version: 1.0.0
 host: example.com
 basePath: /
