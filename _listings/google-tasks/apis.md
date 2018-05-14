@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-tasklist-put.md
-- name: Google Tasks API Delete Users Task List
-  description: Deletes the authenticated user's specified task list.
+- name: Google Tasks API Get Users Task List
+  description: Returns the authenticated user's specified task list.
   image: ""
   humanURL: https://developers.google.com/google-apps/tasks/
   baseURL: http:://www.googleapis.com//tasks/v1
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-tasklist-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-tasklist-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-tasklist-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/google-tasks/users-me-lists-tasklist-get-postman.md
 x-common:
 - type: x-code
   url: https://developers.google.com/google-apps/tasks/setup
