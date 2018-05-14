@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SoundCloud
-  description: Access, host, upload, and comment on audio.
+  title: SoundCloud Get Group Users
+  description: Returns a combined collection of moderators, members and contributors
+    of the group with group id
   version: 1.0.0
 host: api.soundcloud.com
 basePath: /
