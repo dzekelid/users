@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-autocomplete-ranked-get.md
-- name: Yammer API Get Specific User By Email
-  description: View data about a user
+- name: Yammer API Get Current User
+  description: View data about the current user
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
   baseURL: http:://example.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-by-email-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-current-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-by-email-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/yammer/yamuri-users-current-json-get-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
