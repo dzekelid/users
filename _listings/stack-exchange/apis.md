@@ -46,8 +46,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Questions Featured
-  description: "Gets the questions on which the users in {ids} have active bounties.\n
+- name: Stack Exchange Get User Questions No Answers
+  description: "Gets the questions asked by the users in {ids} which have no answers.\n
+    \nQuestions returns by this method actually have zero undeleted answers. It is
+    completely disjoint /users/{ids}/questions/unanswered and /users/{ids}/questions/unaccepted,
+    which only return questions with at least one answer, subject to other contraints.\n
     \n{ids} can contain up to 100 semicolon delimited ids, to find ids programatically
     look for user_id on user or shallow_user objects.\n \nThe sorts accepted by this
     method operate on the follow fields of the question object:\n - activity - last_activity_date\n
@@ -60,9 +63,9 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-featured-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-no-answers-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-featured-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-no-answers-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
