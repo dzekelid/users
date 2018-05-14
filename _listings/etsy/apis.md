@@ -54,7 +54,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-recommended-listings-get.md
-- name: Etsy Get Users User Feedback As Buyer
+- name: Etsy Get Users User Feedback As Seller
   description: Retrieves a set of Feedback objects associated to a User.
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
@@ -62,7 +62,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-feedback-as-buyer-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-feedback-as-seller-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
