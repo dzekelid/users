@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/box/users-user-id-memberships-get.md
-- name: Box Add Email Alias
-  description: "Adds a new email alias to the given user\u2019s account."
+- name: Box Delete Email Alias
+  description: Removes an email alias from a user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/box/users-user-id-email-aliases-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/box/users-user-id-email-aliases-email-alias-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/box/users-user-id-email-aliases-email-alias-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
