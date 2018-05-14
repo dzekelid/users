@@ -46,11 +46,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-badges-get-postman.md
-- name: Stack Exchange Get User Questions
-  description: "Gets the questions asked by the users in {ids}.\n \n{ids} can contain
-    up to 100 semicolon delimited ids, to find ids programatically look for user_id
-    on user or shallow_user objects.\n \nThe sorts accepted by this method operate
-    on the follow fields of the question object:\n - activity - last_activity_date\n
+- name: Stack Exchange Get User Questions Featured
+  description: "Gets the questions on which the users in {ids} have active bounties.\n
+    \n{ids} can contain up to 100 semicolon delimited ids, to find ids programatically
+    look for user_id on user or shallow_user objects.\n \nThe sorts accepted by this
+    method operate on the follow fields of the question object:\n - activity - last_activity_date\n
     - creation - creation_date\n - votes - score\n  activity is the default sort.\n
     \n It is possible to create moderately complex queries using sort, min, max, fromdate,
     and todate.\n \nThis method returns a list of questions."
@@ -60,9 +60,9 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-featured-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-ids-questions-featured-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
