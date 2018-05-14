@@ -26,15 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-name-patch.md
-- name: Azure DevTest Labs API Users Create Or Update
-  description: Create or replace an existing user profile.
+- name: Azure DevTest Labs API Users Delete
+  description: Delete user profile. This operation can take a while to complete.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
   humanURL: https://azure.microsoft.com/en-us/services/devtest-lab/
   baseURL: http:://management.azure.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-name-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-name-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-name-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
