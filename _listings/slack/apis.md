@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-setactive-post.md
-- name: Slack Set User Profile
-  description: Set the profile information for a user.
+- name: Slack Set User Presence
+  description: Manually sets user presence.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-profile-set-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-setpresence-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-profile-set-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-setpresence-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
