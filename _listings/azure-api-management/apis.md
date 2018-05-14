@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-users-uid-identities-get.md
-- name: Azure API Management API GroupUsers Create
-  description: Adds a user to the specified group.
+- name: Azure API Management API GroupUsers Delete
+  description: Remove existing user from existing group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
   humanURL: https://azure.microsoft.com/en-us/services/api-management/
   baseURL: http:://management.azure.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-groups-groupid-users-uid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-groups-groupid-users-uid-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-groups-groupid-users-uid-put-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-groups-groupid-users-uid-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
