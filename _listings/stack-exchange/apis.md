@@ -26,25 +26,24 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get User Moderators
-  description: "Gets those users on a site who can exercise moderation powers.\n \nNote,
-    employees of Stack Exchange Inc. will be returned if they have been granted moderation
-    powers on a site even if they have never been appointed or elected explicitly.
-    This method checks abilities, not the manner in which they were obtained.\n \nThe
-    sorts accepted by this method operate on the follow fields of the user object:\n
-    - reputation - reputation\n - creation - creation_date\n - name - display_name\n
-    - modified - last_modified_date\n  reputation is the default sort.\n \n It is
-    possible to create moderately complex queries using sort, min, max, fromdate,
-    and todate.\n \nThis method returns a list of users."
+- name: Stack Exchange Get Users Moderators Elected
+  description: "Returns those users on a site who both have moderator powers, and
+    were actually elected.\n \nThis method excludes Stack Exchange Inc. employees,
+    unless they were actually elected moderators on a site (which can only have happened
+    prior to their employment).\n \nThe sorts accepted by this method operate on the
+    follow fields of the user object:\n - reputation - reputation\n - creation - creation_date\n
+    - name - display_name\n - modified - last_modified_date\n  reputation is the default
+    sort.\n \n It is possible to create moderately complex queries using sort, min,
+    max, fromdate, and todate.\n \nThis method returns a list of users."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-moderators-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-moderators-elected-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-moderators-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/stack-exchange/users-moderators-elected-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
