@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Activate User
   version: 1.0.0
+  description: Activates the specified user.
 schemes:
 - http
 produces:
