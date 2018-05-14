@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/disqus/users-updateprofile-json-post.md
-- name: Disqus Users ListModeratedChannels
-  description: Users ListModeratedChannels
+- name: Disqus Users ListMostActiveForums
+  description: Users ListMostActiveForums
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
   humanURL: https://disqus.com/
   baseURL: https://disqus.com/api/3.0/
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/disqus/users-listmoderatedchannels-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/disqus/users-listmostactiveforums-json-get.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
