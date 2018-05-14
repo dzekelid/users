@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Create User
   version: 1.0.0
+  description: Creates a user in a Simple AD or Microsoft AD directory.
 schemes:
 - http
 produces:
