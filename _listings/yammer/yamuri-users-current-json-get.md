@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API Get Current User
+  description: View data about the current user
   version: 1.0.0
 host: example.com
 basePath: /
