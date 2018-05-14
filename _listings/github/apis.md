@@ -41,18 +41,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-subscriptions-get.md
-- name: Github Get Users Username Events
-  description: If you are authenticated as the given user, you will see your private
-    events. Otherwise, you'll only see public events.
+- name: Github Get Users Username Events Orgs Org
+  description: This is the user's organization dashboard. You must be authenticated
+    as the user to view this.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-events-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-events-orgs-org-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-events-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/github/users-username-events-orgs-org-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
