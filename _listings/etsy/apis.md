@@ -54,15 +54,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/users-user-id-recommended-listings-get.md
-- name: Etsy Get Featured Users
-  description: Finds all FeaturedUser.
+- name: Etsy Get Featured Users Featured User
+  description: Retrieves a FeaturedUser by id.
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/featured-users-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/etsy/featured-users-featured-user-id-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
