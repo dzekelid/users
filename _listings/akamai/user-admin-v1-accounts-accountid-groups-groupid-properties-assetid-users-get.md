@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List a Property&#8217;s Users
+  description: List a Property&#8217;s Users
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,15 +19,15 @@ paths:
       description: List a Property&#8217;s Users
       operationId: useradminv1accountsaccountidgroupsgroupidpropertiesassetidusers
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for an account
         type: string
-      - in: String
+      - in: query
         name: assetId
         description: Within the User Admin API, the assetId is also known as the propertyId
         type: string
-      - in: Integer
+      - in: query
         name: groupId
         description: Unique numeric identifier for a group
         type: string
