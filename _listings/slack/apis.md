@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-setactive-post.md
-- name: Slack Get User Profile
-  description: Retrieves a user's profile information.
+- name: Slack List Team Users
+  description: Lists all users in a Slack team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-profile-get-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-list-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-profile-get-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/slack/users-list-get-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
