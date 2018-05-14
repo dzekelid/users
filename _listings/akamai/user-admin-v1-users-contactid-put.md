@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Modify a User
+  description: Modify a User
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Modify a User
       operationId: useradminv1userscontactid
       parameters:
-      - in: String
+      - in: query
         name: contactId
         description: Unique identifier for a user
         type: string
