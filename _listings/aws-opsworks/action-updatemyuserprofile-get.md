@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Update My User Profile
   version: 1.0.0
+  description: Updates a user's SSH public key.
 schemes:
 - http
 produces:
