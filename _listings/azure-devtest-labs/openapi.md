@@ -1,0 +1,137 @@
+---
+swagger: "2.0"
+x-collection-name: Azure DevTest Labs
+x-complete: 1
+info:
+  title: DevTestLabsClient
+  description: the-devtest-labs-client-
+  version: 1.0.0
+host: management.azure.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/users:
+    get:
+      summary: Users List
+      description: List user profiles in a given lab.
+      operationId: Users_List
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusers-get
+      parameters:
+      - in: query
+        name: $expand
+        description: Specify the $expand query
+      - in: query
+        name: $filter
+        description: The filter to apply to the operation
+      - in: query
+        name: $orderby
+        description: The ordering expression for the results, using OData notation
+      - in: query
+        name: $top
+        description: The maximum number of resources to return from the operation
+      - in: path
+        name: labName
+        description: The name of the lab
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/users/{name}:
+    get:
+      summary: Users Get
+      description: Get user profile.
+      operationId: Users_Get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-get
+      parameters:
+      - in: query
+        name: $expand
+        description: Specify the $expand query
+      - in: path
+        name: labName
+        description: The name of the lab
+      - in: path
+        name: name
+        description: The name of the user profile
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+    put:
+      summary: Users Create Or Update
+      description: Create or replace an existing user profile.
+      operationId: Users_CreateOrUpdate
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-put
+      parameters:
+      - in: path
+        name: labName
+        description: The name of the lab
+      - in: path
+        name: name
+        description: The name of the user profile
+      - in: query
+        name: No Name
+      - in: body
+        name: user
+        description: Profile of a lab user
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+    delete:
+      summary: Users Delete
+      description: Delete user profile. This operation can take a while to complete.
+      operationId: Users_Delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-delete
+      parameters:
+      - in: path
+        name: labName
+        description: The name of the lab
+      - in: path
+        name: name
+        description: The name of the user profile
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+    patch:
+      summary: Users Update
+      description: Modify properties of user profiles.
+      operationId: Users_Update
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-patch
+      parameters:
+      - in: path
+        name: labName
+        description: The name of the lab
+      - in: path
+        name: name
+        description: The name of the user profile
+      - in: query
+        name: No Name
+      - in: body
+        name: user
+        description: Profile of a lab user
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+---

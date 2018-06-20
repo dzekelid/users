@@ -1,0 +1,132 @@
+---
+swagger: "2.0"
+x-collection-name: GitHub
+x-complete: 0
+info:
+  title: Github Get Users Username Events
+  description: If you are authenticated as the given user, you will see your private
+    events. Otherwise, you'll only see public events.
+  termsOfService: https://help.github.com/articles/github-terms-of-service/#b-api-terms
+  version: 1.0.0
+host: api.github.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /search/users:
+    get:
+      summary: Get Search Users
+      description: Search users.
+      operationId: search-users
+      x-api-path-slug: searchusers-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: query
+        name: order
+        description: The sort field
+      - in: query
+        name: q
+        description: The search terms
+      - in: query
+        name: sort
+        description: If not provided, results are sorted by best match
+      responses:
+        200:
+          description: OK
+      tags:
+      - Search
+      - Users
+  /users:
+    get:
+      summary: Get Users
+      description: |-
+        Get all users.
+        This provides a dump of every user, in the order that they signed up for GitHub.
+        Note: Pagination is powered exclusively by the since parameter. Use the Link
+        header to get the URL for the next page of users.
+      operationId: get-all-usersthis-provides-a-dump-of-every-user-in-the-order-that-they-signed-up-for-githubnote-pagi
+      x-api-path-slug: users-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: query
+        name: since
+        description: The integer ID of the last User that youve seen
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+  /users/{username}:
+    get:
+      summary: Get Users Username
+      description: Get a single user.
+      operationId: get-a-single-user
+      x-api-path-slug: usersusername-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: username
+        description: Name of user
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Username
+  /users/{username}/events:
+    get:
+      summary: Get Users Username Events
+      description: If you are authenticated as the given user, you will see your private
+        events. Otherwise, you'll only see public events.
+      operationId: if-you-are-authenticated-as-the-given-user-you-will-see-your-private-events-otherwise-youll-only-see
+      x-api-path-slug: usersusernameevents-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: username
+        description: Name of user
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Username
+      - Events
+x-streamrank:
+  polling_total_time_average: "0.21"
+  polling_size_download_average: "31132.75"
+  streaming_total_time_average: "0.12"
+  streaming_size_download_average: "15579.5"
+  change_yes: "111"
+  change_no: "2223"
+  time_percentage: "44"
+  size_percentage: "50"
+  change_percentage: "5"
+  last_run: "2018-05-12"
+  days_run: "8"
+  minute_run: "0"
+---
