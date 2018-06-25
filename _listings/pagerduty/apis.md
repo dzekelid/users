@@ -5,10 +5,10 @@ description: See how PagerDuty Digital Operations Management Platform integrates
   data & human intelligence to improve visibility & agility across organizations.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
 x-kinRank: "8"
-x-alexaRank: "19574"
+x-alexaRank: "18918"
 tags: Users
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
@@ -16,7 +16,7 @@ apis:
   x-api-slug: pagerduty
   description: Returns customer's user by user GUID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users/{user_guid} '
   tags: Users
   properties:
@@ -28,7 +28,7 @@ apis:
   x-api-slug: pagerduty
   description: Returns all customer's users.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users '
   tags: Users
   properties:
@@ -40,7 +40,7 @@ apis:
   x-api-slug: pagerduty
   description: Creates a new user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users '
   tags: Users
   properties:
@@ -52,7 +52,7 @@ apis:
   x-api-slug: pagerduty
   description: Updates a user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users '
   tags: Users
   properties:
@@ -64,7 +64,7 @@ apis:
   x-api-slug: pagerduty
   description: DELETE users user gu
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users/{user_guid} '
   tags: Users
   properties:
@@ -76,7 +76,7 @@ apis:
   x-api-slug: pagerduty
   description: Remove a user from a team.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{id}/users/{user_id}
   tags: Team Users
   properties:
@@ -86,7 +86,7 @@ apis:
   x-api-slug: pagerduty
   description: Add a user to a team.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{id}/users/{user_id}
   tags: Team Users
   properties:
@@ -97,7 +97,7 @@ apis:
   description: List users of your PagerDuty account, optionally filtered by a search
     query.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users
   tags: Users
   properties:
@@ -108,7 +108,7 @@ apis:
   description: Create a new user. Note that you must also supply a `password` property
     to create a user--it will not be returned by any API.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users
   tags: Users
   properties:
@@ -118,7 +118,7 @@ apis:
   x-api-slug: pagerduty
   description: Get details about an existing user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}
   tags: Users
   properties:
@@ -128,7 +128,7 @@ apis:
   x-api-slug: pagerduty
   description: Remove an existing user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}
   tags: Users
   properties:
@@ -139,7 +139,7 @@ apis:
   description: Update an existing user. Note that you may also supply a `password`
     property--it will not be returned by any API.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}
   tags: Users
   properties:
@@ -149,7 +149,7 @@ apis:
   x-api-slug: pagerduty
   description: users users user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/users/userId
   tags: Users
   properties:
@@ -160,13 +160,15 @@ apis:
   description: See how PagerDuty Digital Operations Management Platform integrates
     machine data & human intelligence to improve visibility & agility across organizations.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https:///
   tags: Users
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/pagerduty/openapi.md
 x-common:
+- type: x-website
+  url: http://www.pagerduty.com/
 - type: x-base
   url: https://acme.pagerduty.com/api/
 - type: x-blog
@@ -187,8 +189,12 @@ x-common:
   url: support@pagerduty.com
 - type: x-email
   url: legal@pagerduty.com
+- type: x-email
+  url: privacy@pagerduty.com
 - type: x-github
   url: https://github.com/PagerDuty
+- type: x-linkedin
+  url: https://www.linkedin.com/company/pagerduty
 - type: x-openapi-spec--authoritative
   url: https://api-reference.pagerduty.com/output.json
 - type: x-pricing

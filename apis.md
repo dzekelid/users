@@ -4,7 +4,7 @@ description: This is a repository of users APIs, self-contained as a Github repo
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/users.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://users.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -74,8 +74,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/pagerduty/apis.yaml
 - name: New Relic
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/new-relic/apis.yaml
-- name: StatusPage.io
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/statuspage-io/apis.yaml
+- name: StatusPage
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/statuspage/apis.yaml
 - name: CloudFlare
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/users/master/_listings/cloudflare/apis.yaml
 - name: AWS Cognito
